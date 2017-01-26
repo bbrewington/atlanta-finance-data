@@ -8,7 +8,7 @@ Converting info from http://procurement.atlantaga.gov into a more open-data form
 
 ### Screenshots of procurement.atlantaga.gov pages:
 ##### List of Solicitation Projects
-![Solicitation List](https://raw.githubusercontent.com/bbrewington/atlanta-procurement-data/images/Solicitation_List.png)
+![Solicitation List](https://github.com/bbrewington/atlanta-procurement-data/raw/master/images/Solicitation_List.PNG)
 
 ##### Solicitation Project Page
-![Solicitation Project Page](https://raw.githubusercontent.com/bbrewington/atlanta-procurement-data/images/Solicitation_Project_Page.png)
+![Solicitation Project Page](https://github.com/bbrewington/atlanta-procurement-data/raw/master/images/Solicitation_Project_Page.PNG)
