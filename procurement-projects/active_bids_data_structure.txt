@@ -1,0 +1,57 @@
+projects$posts
+  [i]
+    id
+    type
+    slug
+    url
+    status (for 9/18 data all are "publish")
+    title
+    title_plain
+    content (html chunk)
+    excerpt
+    date - YYYY-MM-DD HH24:MI:SS
+    modified - YYYY-MM-DD HH24:MI:SS
+    categories
+      [i]
+        id
+        slug
+        title
+        description
+        parent (these can be nested - maybe collapse to "parent > child, parent > child, ..."
+        post_count
+    tags
+      [i]
+        id
+        slug
+        title
+        description
+        post_count
+    author
+      id
+      slug
+      name
+      first_name
+      last_name
+      nickname
+      url (always http://procurement.atlantaga.gov?)
+      description (always blank?)
+    comments
+    attachments
+      [i]
+        id
+        url
+        slug
+        title
+        description
+        caption
+        parent
+        mime_type
+    comment_count
+    comment_status
+    custom_fields
+      solicitation_status
+        [i] (no children) (factor)
+      bids_due
+        [i] (no children) (unix timestamp)
+      questions_due
+        [i] (no children) (unix timestamp)
